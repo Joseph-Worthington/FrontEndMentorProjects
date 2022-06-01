@@ -1,5 +1,6 @@
-let submitFrom = () =>{
-    onclick()
+const submitForm = () =>{    
+    document.getElementsByClassName("thankyou-wrapper")[0].style.display = "block";
+    document.getElementsByClassName("review-form")[0].style.display = "none";
 }
 
 //Main function on click the current output will be hidden and the thank you message will become visable.  
