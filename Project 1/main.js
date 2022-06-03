@@ -1,6 +1,22 @@
+let selectContainer = document.getElementsByClassName('rating-wrapper')[0];
+let listItems = document.getElementsByTagName('a');
+for(let i=0; i < listItems.length; i++){
+    listItems[i].addEventListener('click',function(){
+        (document.querySelector('.active')) ? document.querySelector('.active').classList.remove('active') : ''; this.classList.add('active')
+    });
+}
+
 const submitForm = () =>{    
     document.getElementsByClassName("thankyou-wrapper")[0].style.display = "flex";
     document.getElementsByClassName("review-form")[0].style.display = "none";
+
+    let selectedScore = document.querySelector('li .active').getAttribute('value');
+    let thankYouScore = document.getElementById('user-score');
+    console.log(thankYouScore);
+    console.log(selectedScore);
+    let userScore = document.createTextNode(selectedScore);
+    console.log(userScore);
+    thankYouScore.appendChild(userScore);
 }
 
 //Main function on click the current output will be hidden and the thank you message will become visable.  

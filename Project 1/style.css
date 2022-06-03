@@ -21,23 +21,33 @@ p{
     color: #969FAD;
     font-size: 1.6rem;
 }
-.review-form span{
+span{
+    color: #969FAD;
+    font-size: 1.6rem;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
     width: 51px;
+    list-style: none;
     height: 51px;
     border-radius: 50%;
     background-color: #262E38;
     color: #7C8798;
+    text-decoration: none;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
     transition: all 0.7s ease-in-out 0.2s;
 }
-.review-form span:hover{
+a:hover{
     background-color: #FC7614;
     color: #FFFFFF;
 }
-.review-form span:active{
+a.active{
     background-color: #7C8798;
     color: #FFFFFF;
 }
