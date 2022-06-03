@@ -1,5 +1,5 @@
 const submitForm = () =>{    
-    document.getElementsByClassName("thankyou-wrapper")[0].style.display = "block";
+    document.getElementsByClassName("thankyou-wrapper")[0].style.display = "flex";
     document.getElementsByClassName("review-form")[0].style.display = "none";
 }
 
