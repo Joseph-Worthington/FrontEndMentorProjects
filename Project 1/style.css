@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
     font-size: 10px;
+    margin: 0;
 }
 
 body{
@@ -19,11 +20,11 @@ h1{
 }
 p{
     color: #969FAD;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 span{
-    color: #969FAD;
-    font-size: 1.6rem;
+    color: #FC7614;
+    font-size: 1.5rem;
 }
 ul{
     list-style: none;
@@ -109,9 +110,21 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    padding: 17px 0;
 }
 
-.thankyou-wrapper p{
+.thankyou-wrapper{
     text-align: center;
+}
+.thankyou-wrapper h1{
+    padding-bottom: 10px;
+}
+.thankyou-wrapper .thankyou-score{
+    display: flex;
+    align-items: center;
+    color: #FC7614;
+    background-color: #262E38;
+    border-radius: 22.5px;
+    padding: 6.5px 24.5px ;
 }
 

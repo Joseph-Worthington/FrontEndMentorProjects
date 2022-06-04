@@ -13,7 +13,7 @@ const submitForm = () =>{
 
         let selectedScore = document.querySelector('li .active').getAttribute('value');
         let thankYouScore = document.getElementById('user-score');
-        let userScore = document.createTextNode(selectedScore);
+        let userScore = document.createTextNode('\u00A0' + selectedScore + '\u00A0');
         thankYouScore.appendChild(userScore);
     }
 }
