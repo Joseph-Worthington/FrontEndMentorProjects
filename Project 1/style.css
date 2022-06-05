@@ -12,7 +12,6 @@ body{
     align-items: center;
     height: 100vh;
     padding: 24px;
-
 }
 h1{
     color: #FFFFFF;
@@ -128,3 +127,9 @@ button:hover{
     padding: 6.5px 24.5px ;
 }
 
+@media(max-width: 576px){
+    .rating-card{
+        width: 327px;
+        height: 360px;
+    }
+}
