@@ -1,5 +1,12 @@
-This repository stores all the projects I have done from the website www.frontendmentor.io
+# Front End Mentor Project Repository
+## Outline
+This repository stores all of the projects I have completed from the website https://www.frontendmentor.io/.
 
-My first project "Project 1" is a form submit web app. The project uses HTML, CSS and Javascript to show a form submit that when interacted with will change to a thankyou message. 
+Front End Mentor provides real-world challenges that can be solved using HTML, CSS and Javascript. The point of thier projects is to provide expereince creating functional appliucations that are functional. The depth of the project is left to the developer.
 
-As part of the functionality the form also logs the number chosen and resubmits into the final thank you message.
+I use these projects to help develop my skills in each of these languages but also to improve my probleming solving skills. These project also provide a space to experiment with libraries.
+
+### Project 1
+My first project is a simple review card, where the user provides a number and submits their review which is then logged and reused in the thank you card. Their is database for storing these numbers, as I focused only on the front end development and user side of this project.
+
+To find out more please read the README.md in the Project 1 folder. 
