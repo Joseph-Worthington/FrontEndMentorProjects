@@ -20,6 +20,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Overview
 
+This is my first Front End Mentor Project.
+
 ### The challenge
 
 Users should be able to:
