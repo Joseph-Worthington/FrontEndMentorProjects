@@ -24,6 +24,7 @@ $body:'Montserrat', sans-serif;
         display: flex;
         align-items: center;
         height: 100vh;
+        padding: 2.8rem 1.6rem;
     }
    
 
@@ -53,13 +54,13 @@ $body:'Montserrat', sans-serif;
 
     .product-card{
         max-width: 600px;
-        max-height: 450px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         overflow: hidden;
         background-color: $pure-white;
         border-radius: 1rem;
+
 
 
         .product-card-background-image{
@@ -103,8 +104,43 @@ $body:'Montserrat', sans-serif;
             display: flex;
             gap: 1.15rem;
             align-items: center;
+            width: 100%;
+            justify-content: center;
+
+            &:hover{
+                background-color: $deep-aquamarine-dark;
+            }
         }
     }
 
+    @media(max-width:768px){
+        body{
+            height: 100%;
+        }
+        h2{
+            padding-bottom: 1.2rem;
+        }
+        h1{
+            padding-bottom: 1.6rem;
+        }
+        p{
+            padding-bottom: 2.4rem;
+        }
+        .product-card{
+            grid-template-columns: 1fr;
+
+            .product-card-background-image{
+                height: 240px;
+                background-image: url('./images/image-product-mobile.jpg');
+            }
+            .product-card-content{
+                padding: 2.4rem;
+            }
+            .pricing{
+                padding-bottom: 2rem;
+            }
+        }
+    }
+       
 
 }
