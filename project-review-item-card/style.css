@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
+  transition: all linear 0.5s;
 }
 * body {
   background-color: #F2EAE2;
@@ -84,6 +85,7 @@
   align-items: center;
   width: 100%;
   justify-content: center;
+  cursor: pointer;
 }
 * .product-card .add-to-cart:hover {
   background-color: #1A4032;

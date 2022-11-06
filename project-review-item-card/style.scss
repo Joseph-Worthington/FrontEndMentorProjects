@@ -18,6 +18,7 @@ $body:'Montserrat', sans-serif;
     padding: 0;
     font-family: $body;
     font-size: 10px;
+    transition: all linear 0.5s;
 
     body{
         background-color: $cream;
@@ -106,6 +107,8 @@ $body:'Montserrat', sans-serif;
             align-items: center;
             width: 100%;
             justify-content: center;
+            cursor: pointer;
+
 
             &:hover{
                 background-color: $deep-aquamarine-dark;
