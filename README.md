@@ -15,7 +15,7 @@ My first project is a simple review card, where the user provides a number and s
 
 The javascript also uses an if statment to verify that a number has been selected before allowing the user to proceed. I did not include an error message as this was not part of the design files give and I thought a user would understand that a option must be selected before proceeding. 
 
-To find out more please read the README.md in the Project 1 folder. [View Project 1](/FrontEndMentorProjects/project-product-review/)
+To find out more please read the README.md in the Project 1 folder. [View Project 1](https://joseph-worthington.github.io/FrontEndMentorProjects/project-product-review//)
 
 ### Project 2 - Product Preview
 
@@ -23,4 +23,4 @@ The second project from Front End Mentor is a product review card, the card cont
 
 For the background image a decided to use a div with the image as a background image rather than a img element as I don't think the image is integral to the information on the page, so someone using a screen reader would not loose anything from the lack of image element. To find out more please go to the READ.me inside project-review-item-card.
 
-To view my project please click the link [Project 2 Product Card](/FrontEndMentorProjects/project-review-item-card/)
+To view my project please click the link [Project 2 Product Card](https://joseph-worthington.github.io/FrontEndMentorProjects/project-review-item-card/)
