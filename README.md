@@ -8,7 +8,7 @@ Front End Mentor provides real-world challenges that can be solved using HTML, C
 I use these projects to help develop my skills as a web developer, build my knowledge and confidence in Front End Development, and improve my problem solving skills. These projects also provide a space to experiment with libraries and tools.
 
 Each of the projects tests skills in different ways. Some are design templates meant to be recreated for responsive web design, while others have required functions. To test the applications, please download the project containing all the files. Once you have all the files, click the index.html to start the application locally.
-To view all my projects for Front End Mentor, [Click Here](/FrontEndMentorProjects/).
+To view all my projects for Front End Mentor, [Click Here](https://joseph-worthington.github.io/FrontEndMentorProjects/)).
 
 ### Project 1 - Review Card
 
