@@ -22,6 +22,8 @@ $body-s: 600 16px 'Plus Jakarta Sans', sans-serif;
     margin: 0;
     padding: 0;
     font-size: 16px;
+    transition: all linear 0.5s;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 //Typography 
@@ -54,4 +56,28 @@ p{
     line-height: 28px;
     border-radius: 31.5px;
     color: $white;
+    border: none;
+    
+    &.header-button{
+        background-color: $dark-blue;
+
+        &:hover{
+            background-color: $blue;
+            border-color: $blue;
+        }
+    }
+    &.main-button{
+        background-image: $fade-red;
+
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+    &.footer-button{
+        background-image: $fade-blue;
+
+        &:hover{
+            opacity: 0.5;
+        }
+    }
 }

@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-size: 16px;
+  transition: all linear 0.5s;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 h1 {
@@ -35,6 +37,26 @@ p {
   line-height: 28px;
   border-radius: 31.5px;
   color: #FFFFFF;
+  border: none;
+}
+.button.header-button, button.header-button {
+  background-color: #13183F;
+}
+.button.header-button:hover, button.header-button:hover {
+  background-color: #666CA3;
+  border-color: #666CA3;
+}
+.button.main-button, button.main-button {
+  background-image: linear-gradient(#F02AA6, #FF6F48);
+}
+.button.main-button:hover, button.main-button:hover {
+  opacity: 0.5;
+}
+.button.footer-button, button.footer-button {
+  background-image: linear-gradient(#4851FF, #F02AA6);
+}
+.button.footer-button:hover, button.footer-button:hover {
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=style.css.map */
