@@ -1,0 +1,57 @@
+// Color Variables. 
+$blue: #666CA3;
+$dark-blue: #13183F;
+$green: #83869A;
+$red: #F74780;
+$pink: #FFA7C3;
+$white: #FFFFFF;
+$fade-red: linear-gradient(#F02AA6, #FF6F48);
+$fade-blue: linear-gradient(#4851FF, #F02AA6);
+
+//Typogrophy Variables
+$heading-xl: 800 56px 'Plus Jakarta Sans', sans-serif;
+$heading-l: 800 40px 'Plus Jakarta Sans', sans-serif;
+$heading-m: 800 23px 'Plus Jakarta Sans', sans-serif;
+$heading-s: 800 24px 'Plus Jakarta Sans', sans-serif;
+$body-m: 400 18px 'Plus Jakarta Sans', sans-serif;
+$body-s: 600 16px 'Plus Jakarta Sans', sans-serif;
+
+//Reset css
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+//Typography 
+h1{
+    font: $heading-xl;
+    line-height: 70px;   
+}
+h2{
+    font: $heading-l;
+    line-height: 51px;
+}
+h3{
+    font: $heading-m;
+    line-height: 32px;
+}
+h4{
+    font: $heading-s;
+    line-height: 24px;
+}
+p{
+    font: $body-m;
+    line-height: 28px;
+}
+
+//Utility
+
+.button,button{
+    padding: 19px 31px;
+    font: 600 18px 'Plus Jakarta Sans', sans-serif;
+    line-height: 28px;
+    border-radius: 31.5px;
+    color: $white;
+}

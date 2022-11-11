@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+h1 {
+  font: 800 56px "Plus Jakarta Sans", sans-serif;
+  line-height: 70px;
+}
+
+h2 {
+  font: 800 40px "Plus Jakarta Sans", sans-serif;
+  line-height: 51px;
+}
+
+h3 {
+  font: 800 23px "Plus Jakarta Sans", sans-serif;
+  line-height: 32px;
+}
+
+h4 {
+  font: 800 24px "Plus Jakarta Sans", sans-serif;
+  line-height: 24px;
+}
+
+p {
+  font: 400 18px "Plus Jakarta Sans", sans-serif;
+  line-height: 28px;
+}
+
+.button, button {
+  padding: 19px 31px;
+  font: 600 18px "Plus Jakarta Sans", sans-serif;
+  line-height: 28px;
+  border-radius: 31.5px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
